@@ -2,11 +2,13 @@
 .header--navigation {
   background-image: url("../img/Beauty-background.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: cover;
   min-height: 20rem;
 
-
+  .header--rowForMenu {
+    justify-content: flex-end;
+  }
   .header--navigation--logo {
     padding-left: 14rem;
     padding-top: 6rem;
@@ -23,8 +25,10 @@
     @extend %flex-v-centered;
     flex-wrap: wrap;
     justify-content: center;
+
     .header--navigation--ul--li {
-      @extend %nav-inline;
+
+      list-style-type: none;
       padding-right: 2.6rem;
       .header--navigation--ul--li--a {
         text-decoration: none;

@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1178px) {
+  .header--navigation .header--navigation--logo {
+    padding-bottom: 3.8rem;
+  }
+
+}
+@media only screen and (max-width: 992px) {
+  .header--userPanel {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .header--userPanel--logo,
+    .header--userPanel--stars,
+    .header--userPanel--menu,
+    .header--userPanel--cabinet {
+      padding: 1rem 0;
+    }
+
+    .header--userPanel--stars {
+
+      .header--userPanel--stars--img {
+        width: 30%;
+      }
+    }
+    .header--userPanel--menu,
+    .header--userPanel--cabinet
+    {
+      font-size: $fz*1.5;
+    }
+
+  }
+  .header--navigation .header--navigation--cards {
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 1.3rem;
+  }
+  .header--navigation .header--navigation--logo {
+    padding-top: 2rem;
+    padding-bottom: 0;
+
+  }
+
+  .header--navigation .header--navigation--ul {
+    flex-direction: column;
+    padding: 1rem 0;
+    justify-content: flex-start;
+
+     .header--navigation--ul--li .header--navigation--ul--li--a {
+      font-size: $fz*2;
+    }
+  }
+  .header--navigation .header--navigation--cards .header--navigation--cards--body {
+    margin-top: 0.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 576px) {
+  .header--userPanel .header--userPanel--stars {
+    padding: 1rem 0;
+    .header--userPanel--stars--img {
+      width: 30%;
+    }
+  }
+  .header--userPanel .header--userPanel--stars .header--userPanel--stars--img {
+    width: 40%;
+  }
+  .header--userPanel .header--userPanel--menu .header--userPanel--menu--ul .header--userPanel--menu--ul--li {
+    border-bottom: 1px solid lighten($c, 50%);
+    padding-bottom: 0.3rem;
+  }
+}
