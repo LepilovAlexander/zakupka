@@ -1,0 +1,27 @@
+//Variables
+$ff: Calibri; //main font
+$fz: 15px; //font size
+$c: #000; //font color
+$tfp: skewX(15deg);  //horisontal transform +
+$tfm: skewX(-15deg); //horisontal transform -
+//********************************************************************************
+//Extend variables
+%flex-v-centered {
+  display: flex;
+  align-items: center;
+}
+  %nav-inline {
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+//********************************************************************************
+
+@import "scss-modules/_style-start.scss";
+
+//*******************************!!!!!!HEADER!!!!!********************************
+@import "scss-modules/header/_user_panel.scss";
+@import "scss-modules/header/_header_navigation.scss";
+
+

@@ -12,7 +12,7 @@ gulp.task('default', () => {
             baseDir: "./dist/"
         }
     });
-    gulp.watch('src/sass/*.scss', ['sass']);
+    gulp.watch('src/sass/**/*.*', ['sass']);
     gulp.watch("dist/index.html").on('change', browserSync.reload);
 });
 //SASS

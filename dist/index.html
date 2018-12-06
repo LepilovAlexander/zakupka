@@ -6,14 +6,95 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Zakupka</title>
 </head>
 <body>
-<h1>Hello World</h1>
-<div class="container">
-    <div class="row">
+<!--*******************************!!!!!!HEADER!!!!!********************************-->
+<header class="header">
+    <!--User panel-->
+    <div class="header--userPanel">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 header--userPanel--logo">
+                    <a href="#"><img class="header--userPanel--logo-img" src="img/logo_zakupka.png"></a>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6 header--userPanel--stars">
+                    <img class="header--userPanel--stars--img" src="img/vip.png">
+                </div>
+                <div class="col-md-6 col-sm-12 header--userPanel--menu">
+                    <ul class="header--userPanel--menu--ul">
+                        <li class="header--userPanel--menu--ul--li">
+                            <a href="#" class="header--userPanel--menu--ul--li--a">CRM</a>
+                        </li>
+                        <li class="header--userPanel--menu--ul--li">
+                            <a href="#" class="header--userPanel--menu--ul--li--a">Добавить компанию на Zakupka.com</a>
+                        </li>
+                        <li class="header--userPanel--menu--ul--li">
+                            <a href="#" class="header--userPanel--menu--ul--li--a">Заказать обратный звонок</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header--userPanel--cabinet">
+
+                    <a href="#" class="header--userPanel--cabinet--a">
+                        <i class="fas fa-user-circle header--userPanel--cabinet--a--i"></i> Мой кабинет
+                    </a>
+                </div>
+            </div>
+        </div>
 
     </div>
-</div>
+    <!--Navigation-->
+    <nav class="header--navigation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 header--navigation--logo">
+                    <a href="#">
+                        <img src="img/BeautyShop_logo.png" class="header--navigation--logo--img">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-lg-6 col-sm-12">
+                    <ul class="header--navigation--ul">
+                        <li class="header--navigation--ul--li">
+                            <a href="#" class="header--navigation--ul--li--a">Главная</a>
+                        </li>
+                        <li class="header--navigation--ul--li">
+                            <a href="#" class="header--navigation--ul--li--a">Товары и услуги</a>
+                        </li>
+                        <li class="header--navigation--ul--li">
+                            <a href="#" class="header--navigation--ul--li--a">Доставка и оплата</a>
+                        </li>
+                        <li class="header--navigation--ul--li">
+                            <a href="#" class="header--navigation--ul--li--a">Контакты</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 header--navigation--cards">
+                    <div class="header--navigation--cards--body">
+                        <i class="fas fa-search header--userPanel--cabinet--a--i"></i>
+                    </div>
+                    <div class="header--navigation--cards--body">
+                        <i class="fas fa-phone header--userPanel--cabinet--a--i"></i>
+                    </div>
+                    <div class="header--navigation--cards--body">
+                        <i class="fas fa-shopping-cart header--userPanel--cabinet--a--i"></i>
+                         <span class="header--navigation--cards--body__salesInCard">22</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+</header>
+<main>
+    <section class="sidebarBlock"></section>
+    <section class="productBlock"></section>
+</main>
+<footer></footer>
 </body>
 </html>

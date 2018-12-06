@@ -1,0 +1,48 @@
+.header--userPanel {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  box-shadow: 0 0.5px 5px 0 rgba(0, 0, 0, 0.3);
+  @extend %flex-v-centered;
+  padding-left: 10rem;
+  .header--userPanel--logo {
+    .header--userPanel--logo-img {
+
+    }
+  }
+  .header--userPanel--stars {
+    @extend %flex-v-centered;
+    .header--userPanel--stars--img {
+
+    }
+  }
+  .header--userPanel--menu {
+    @extend %flex-v-centered;
+    padding-left: 3.5rem;
+    .header--userPanel--menu--ul {
+      @extend %flex-v-centered;
+      .header--userPanel--menu--ul--li {
+        @extend %nav-inline;
+        padding-right: 0.5rem;
+
+        .header--userPanel--menu--ul--li--a {
+          color: lighten($c, 30%);
+          text-decoration: none;
+          padding-left: 0.3rem;
+          word-wrap: break-word;
+        }
+      }
+    }
+  }
+  .header--userPanel--cabinet {
+    @extend %flex-v-centered;
+
+    .header--userPanel--cabinet--a {
+      text-decoration: none;
+      color: lighten($c, 30%);
+
+      .header--userPanel--cabinet--a--i {
+        padding-left: 0.3rem;
+      }
+    }
+  }
+}
